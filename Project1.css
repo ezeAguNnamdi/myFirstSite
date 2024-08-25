@@ -1,0 +1,117 @@
+html{
+ height: 100%; /**makes the full page to take the proper screen size**/
+}
+body{
+ background-color: rgb(0, 0, 0);
+ background-image: url(images/backsground\ image.png);
+ background-size: cover; /**makes image take the wole length and NO-REPEAT makes images not to repeat in d bckgrnd**/
+ background-repeat: no-repeat;
+ background-position: center;/**makes the images to be at the center when adjusting page size**/
+}
+.container{
+ margin-left: auto;/**margin right and left:AUTO makes the container to be in the middle. Margin is outside spaces**/
+ margin-right: auto;
+ width: 1024px;
+}
+header{
+ height: 100px;
+ text-align: center;
+}
+
+nav{
+ background-color: rgba(166, 179, 165, 0.018);
+ padding-top: 15px; /**PADDING_TOP/BOTTOM isimple way to centre contents within a box/log**/
+ padding-bottom: 15px;
+ text-align: center;
+ 
+ }
+ nav a:hover{
+  color: greenyellow;
+ }
+ nav a{  /**this is called a COMPOUND SELECTOR because you specifically selecting the inner tags of the HOUSING TAG**/
+   text-decoration: none;
+   font-size: 15px;
+   padding-left: 90px; /**PADDING-LEFT/RIGHT creates spaces btwen contents especially links.**/
+   padding-right: 90px;
+   display: inline-block;
+ }
+ /**nav a::after{
+  content: "";
+  width: 0%;/**for hidden underliine for the nav links, to make is visible, use 100%/
+  height: 5px;
+  background: black;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+ }
+ nav a:hover::after{
+  width: 100%;
+ }**/
+main{
+ height: 500px;
+ text-align: center;
+ padding-top: 80px;/***padding top gives space inbetwn content and the section border** Padding are for internal spaces.**/
+ padding-left: 240px;/**padding right and left align contents in that section to the middle**/
+ padding-right: 240px;
+}
+footer{
+ background-color: rgba(16, 5, 5, 0.178);
+ padding-top: 5px;
+ padding-bottom: 5px;
+ text-align: center ;
+}
+h1{
+ font-size: 84px;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ }
+p{
+ font-size: 18px;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+}
+a{
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ text-decoration: underline
+ }
+ 
+ footer a{
+ text-decoration: none;
+ text-transform: capitalize;
+ font-size: 11px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-style: italic;
+ cursor: pointer;
+ }
+ /** ABOUT PAGE**/
+ .About{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style:normal;
+  font-size: 20px;
+  text-align: center;
+  margin:4%;
+  padding-right: 30px;
+  padding-left: 30px;
+ }
+ h3{
+  font-size: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  padding:1rem ;
+ }
+ h3 a{
+  text-decoration: none;
+  cursor: pointer;
+ }
+ h3 a:hover{
+  transition: 1s;
+  color: rgb(8, 108, 36);
+ }
+ .First{
+  color: #fff;
+  margin-top: 0%;
+  padding-top: 1%;
+ }
